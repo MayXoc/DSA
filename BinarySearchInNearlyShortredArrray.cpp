@@ -21,5 +21,11 @@ bool FindIndex(vector <int> &arr,int target){
 int main(){
     vector <int> arr{20,10,30,50,40,70,60} ;
     int target = 70;
-    FindIndex(arr,target);   
+    bool ans = FindIndex(arr,target); 
+    if(ans==true){
+        cout<<"Element found";
+    }  
+    else{
+        cout<<"Element not found";
+    }
 }
