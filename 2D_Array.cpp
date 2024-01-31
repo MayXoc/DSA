@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void printArray(int arr[][3],int row,int col){	
+void printArray(int arr[][3],int row,int col){	// function to print 2d array
 for(int i=0;i<row;i++){
 	cout<<"|";
 	for(int j=0;j<col;j++){
