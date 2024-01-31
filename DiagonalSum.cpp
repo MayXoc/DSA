@@ -6,8 +6,8 @@ void DiagonalSum(int arr[][4]){
 	int sum2 = 0;
 	int n=3;
 	for(int i=0;i<4;i++){
-		sum1=sum1+arr[i][i];
-		sum2 = sum2+arr[n][i];
+		sum1=sum1+arr[i][i];   // update 1st diagonal element and sum
+		sum2 = sum2+arr[n][i]; // update 2st diagonal element and sum
 		n--;
 	}
 	cout<<"1st diagonal sum = "<<sum1<<endl;
