@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-int BinarySearch(int arr[],int size,int Target){
-int start =0;	
+int BinarySearch(int arr[],int size,int Target){  //Function for binary search
+int start =0;	// initializing from starting index
 int end =size-1;
 int mid=(start+end)/2;
 while(start<=end){
@@ -14,7 +14,7 @@ while(start<=end){
 	else if(Target<arr[mid]){
 		end=mid-1;
 	}
-	mid=(start+end)/2;
+	mid=(start+end)/2;   // update krna jruri 
 }
 return -1;
 }
