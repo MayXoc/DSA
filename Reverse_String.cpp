@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string.h>
 using namespace std;
-void Reverse(char ch[],int size){ //using Two pointer approach
+void Reverse(char ch[],int size){ //using Two pointer approach  and charactor array by refrence pass hote hai by default
     int s = 0;
     int end= size-1;
     while(s<=end){
