@@ -18,4 +18,7 @@ int main(){
     int length  = Length(ch,100);
     cout<<"Length of string = "<<length<<endl;
     cout<<"Length of string = "<<strlen(ch); //Utility function
+    //lets proof Null charactor ASCII vale zero
+    int value = (int)ch[99];
+    cout<<"\nValue of Null charactor - "<<value;
 }
