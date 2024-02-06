@@ -14,6 +14,8 @@ int main(){
     string name2;
     
     string xx = "Mayank";
+    
+    string yy = "Mayank";
 
     int asci = (int)xx[6];
 
@@ -37,5 +39,12 @@ int main(){
         index++;
     }
    
+   //comparing function
+   if(xx.compare(yy)==0){
+    cout<<"Matching";
+   }
+   else{
+    cout<<"Not Matching";
+   }
     
 } 
