@@ -17,6 +17,8 @@ int main(){
     
     string yy = "Mayank";
 
+    string sub = "Xocaar hai to sab mumkin hai";
+
     int asci = (int)xx[6];
 
     int index=0;
@@ -41,10 +43,12 @@ int main(){
    
    //comparing function
    if(xx.compare(yy)==0){
-    cout<<"Matching";
+    cout<<"Matching"<<endl;
    }
    else{
-    cout<<"Not Matching";
+    cout<<"Not Matching"<<endl;
    }
     
+   //substr function
+   cout<<"Extracting (mumkin) from sub - "<<sub.substr(18,6)<<endl;
 } 
