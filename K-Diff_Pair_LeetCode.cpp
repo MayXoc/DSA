@@ -54,7 +54,7 @@ int FindKDiffPair(vector<int> &arr, int k){
     set<pair<int,int>> ans;
     for(int i = 0; i < arr.size(); i++){
         if(BinarySearch(arr, i+1, arr[i]+k) != -1){
-            ans.insert({arr[i], arr[i]+k}); // Corrected insert function call
+            ans.insert({arr[i], arr[i]+k}); // Corrected insert function call yha par pair mai store hoga par without any duplicacy
         }
     }
     return ans.size();
