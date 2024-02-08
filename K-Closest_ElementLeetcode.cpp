@@ -6,7 +6,7 @@
 using namespace std;
 int lowerBound(vector <int> &arr,int x){
     int s=0,e=arr.size()-1;
-    int ans;
+    int ans=e; //[3,5,8,10] and x=15 mai code fat ja rha tha to correction
     while(s<=e){
         int mid = s+(e-s)/2;
         if(arr[mid]>=x){
