@@ -1,6 +1,9 @@
+//Application -> Used for searching in infinity array unbounded array
+//Better than binary search if x is near begnning
 #include <iostream>
 #include <vector>
 using namespace std;
+//Binary search only applied on selected and less portion of array
 int BinarySearch(vector <int> &arr,int l,int h,int x){
     while(l<=h){
         int mid = l + (h-l)/2;
