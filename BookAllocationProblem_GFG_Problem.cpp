@@ -26,6 +26,7 @@ bool isPossibleSol(int A[],int &N,int &M,int &sol){
 }
 
 int FindPages(int A[],int &N,int &M){
+    if(M>N) return -1;  // Yha par code fat rha tha 
     int s=0;
     int e = accumulate(A,A+N,0);
     int ans = -1;
